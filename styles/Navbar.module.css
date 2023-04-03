@@ -1,0 +1,60 @@
+ @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Nunito:wght@900&family=Poppins:wght@300&family=Roboto&display=swap');
+
+
+.Child1{
+
+    height: 10vh;
+    width: 70vw;
+
+    
+    position: absolute;
+    top: 3%;
+    border-bottom: 1px solid black;
+    
+
+}
+
+.logo{
+
+    display: flex;
+    align-items: flex-start;
+    display: inline-block;
+    
+    
+}
+.logo>span{
+    
+    
+    font-family: Roboto,Poppins;
+    font-size: medium;
+    font-weight: 400;
+    color: white;
+    
+}
+.logo>span:hover{
+    cursor: pointer;
+    
+}
+
+.categories{
+
+    display: flex;
+
+    float: right;
+    gap: 3rem;
+    color: white;
+    font-family: Poppins,sans-serif;
+    
+
+}
+
+.categories>li{
+
+
+}
+
+.categories>li:hover{
+    border-bottom: 2px solid yellow;
+    cursor: pointer;
+    font-size: 17px;
+}
